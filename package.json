@@ -28,7 +28,7 @@
     "supertest": "^5.0.0"
   },
   "scripts": {
-    "start": "NODE_ENV=production node app.js",
+    "start": "node app.js",
     "test": "jest --force-exit",
     "lint": "./node_modules/eslint/bin/eslint.js . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
     "custom-tests": "echo \"(No other custom tests yet.)\" && echo"

@@ -1,6 +1,18 @@
-# gateways
+# Gateways
 
-a [Sails v1](https://sailsjs.com) application
+a [Sails v1](https://sailsjs.com) application build for test assignment from Musala Soft, Gateways Project
+
+## Build and Run
+
+By default runs at localhost:1337 with local database that is created at **/.tmp**
+
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:1337
+$ sails lift
+```
 
 ## Links
 

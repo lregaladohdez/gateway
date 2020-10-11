@@ -7,9 +7,6 @@
 const net = require('net');
 
 module.exports = {
-  // customToJSON() {
-  //   return _.omit(this, ['peripheralsCount']);
-  // },
   attributes: {
 
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗

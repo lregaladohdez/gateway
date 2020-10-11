@@ -10,19 +10,18 @@
 
 module.exports.routes = {
 
-  /***************************************************************************
+  /** *************************************************************************
   *                                                                          *
   * Make the view located at `views/homepage.ejs` your home page.            *
   *                                                                          *
   * (Alternatively, remove this and add an `index.html` file in your         *
   * `assets` directory)                                                      *
   *                                                                          *
-  ***************************************************************************/
+  ************************************************************************** */
 
   '/': { view: 'pages/homepage' },
 
-
-  /***************************************************************************
+  /** *************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
   * (See https://sailsjs.com/config/routes for examples.)                    *
@@ -31,7 +30,6 @@ module.exports.routes = {
   * is matched against "shadow routes" (e.g. blueprint routes).  If it does  *
   * not match any of those, it is matched against static assets.             *
   *                                                                          *
-  ***************************************************************************/
-
+  ************************************************************************** */
 
 };
